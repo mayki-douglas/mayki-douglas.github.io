@@ -1,0 +1,85 @@
+ body {
+      font-family: 'Courier New', monospace;
+      background-color: #0d1117;
+      color: #c9d1d9;
+      margin: 20px; /* Margem menor para telas de celular */
+      line-height: 1.6;
+    }
+    
+    h1, h2, h3 {
+      color: #58a6ff;
+    }
+    
+    /* Simulação de prompt de comando no título */
+    h1::before {
+      content: "> ";
+      color: #39ff14;
+    }
+    
+    h2 {
+      border-bottom: 1px dashed #21262d;
+      padding-bottom: 8px;
+      margin-top: 30px;
+    }
+    
+    a {
+      color: #39ff14;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+      background-color: rgba(57, 255, 20, 0.1);
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 40px auto; /* Centraliza o site em telas grandes */
+    }
+    
+    /* Badge estilizado para as tecnologias */
+    .tech-tag {
+      display: inline-block;
+      background-color: #161b22;
+      border: 1px solid #30363d;
+      color: #58a6ff;
+      padding: 4px 10px;
+      margin: 4px 2px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    
+    /* Caixa de destaque para projetos */
+    .project-card {
+      background-color: #161b22;
+      border: 1px solid #30363d;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 6px;
+    }
+    
+    .project-title {
+      font-weight: bold;
+      font-size: 1.1em;
+      margin-bottom: 5px;
+    }
+    
+    .project-techs {
+      color: #8b949e;
+      font-size: 0.85em;
+      margin-top: 8px;
+    }
+    
+    hr {
+      border: 0;
+      border-top: 1px solid #30363d;
+      margin: 20px 0;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
