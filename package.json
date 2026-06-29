@@ -1,0 +1,25 @@
+{
+  "name": "mayki-douglas.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio em construção.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayki-douglas/mayki-douglas.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mayki-douglas/mayki-douglas.github.io/issues"
+  },
+  "homepage": "https://github.com/mayki-douglas/mayki-douglas.github.io#readme",
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
